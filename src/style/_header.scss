@@ -4,12 +4,10 @@ header{
     @include hero('assets/fondoPX.png');
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: 100vh;
 
     nav {
-    @include flex-center(row, space-around, center);
-    padding: $padd-y2;
+    @include flex-center(row, space-between, center);
+    padding: $padd-2;
     color: $color-white;
 
     a{
@@ -57,6 +55,11 @@ header{
             font-size: $size-h1;
             font-family: $font-family-russo-one;
             color: $color-white;
+
+            @include respond-to("small"){
+                font-size: $size-h2;
+              }
+
         }
 
     }
