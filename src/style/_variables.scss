@@ -1,0 +1,60 @@
+/* Colors */
+$color-black: #000000;
+$color-primary-default: #003366;
+$color-primary-disabled: #6b8fb2;
+$color-primary-hover: #0061d1;
+$color-primary-off: #b3d4ff;
+$color-secondary01: #7d7d7d;
+$color-secondary02: #a8a8a8;
+$color-secondary03: #d3d3d3;
+$color-secondary04: #f0f0f0;
+$color-support01: #39ff14;
+$color-support02: #ff7f50;
+$color-support03: #f4f42b;
+$color-white: #ffffff;
+
+$color-header: #00000020;
+
+/* Fonts: Sizes */
+$size-text-c: 0.625rem;
+$size-text-b: 1rem;
+$size-text-a: 1.25rem;
+$size-h3: 1.625rem;
+$size-h2: 2.625rem;
+$size-h1: 4.25rem;
+
+/* Fonts: Line Spacing */
+$sparcing-text-c: 0.9375rem;
+$sparcing-text-b: 1.5rem;
+$sparcing-text-a: 1.875rem;
+$sparcing-h2: 3rem;
+$sparcing-h3: 3rem;
+$sparcing-h1: 4.5rem;
+
+/* Fonts: Families and Weights */
+$font-family-helvetica: "Helvetica Neue LT Std";
+$font-family-orbitron: "Orbitron", sans-serif;
+$font-family-russo-one: "Russo One";
+$font-weight-light: "45 Light";
+$font-weight-regular: "Regular";
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@300;400;700&family=Russo+One&display=swap');
+
+/* Grid */
+$columnas: 0.75rem;
+$gap: 0.9375rem;
+
+$border-radius1: 1rem;
+
+$padd-1:0.75rem;
+$padd-top4: 3.5rem;
+$padd-y2: 1.5rem 0;
+$padd-y3: 2.5rem 0;
+
+$margin-1rem: 1rem;
+$margin-15rem: 1.5rem;
+$margin-r2: 2rem;
+$margin-b10: 10rem;
+
+$icons: 30px;
