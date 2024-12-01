@@ -42,6 +42,53 @@ header{
 
     }
 
+    #registrarse{
+
+        font-family: $font-family-orbitron;
+        display: flex;
+        flex-direction: column;
+        background-color: $color-white2;
+        align-items: center;
+        text-align: center;
+        padding: $padd-2;
+        border-radius: $border-radius1;
+        margin: 0 auto;
+        margin-top: $margin-b10;
+
+        h2{
+            font-size: $size-h2;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: $padd-1;
+            padding: $padd-2;
+        }
+        input {
+            padding: $padd-1;
+            font-size: $size-text-b;
+            border: none;
+        }
+
+        button{
+            margin-top: $margin-1rem;
+            border-radius: $border-radius1;
+            border: none;
+            background-color: $color-primary-default;
+            padding: $padd-1;
+            color: $color-white;
+            font-family: $font-family-orbitron;
+    
+            &:hover{
+                background-color: $color-white;
+                color: $color-primary-default;
+                cursor: pointer;
+            }
+        }
+    }
+
     #play{
         display: flex;
         justify-content: center;
@@ -62,6 +109,10 @@ header{
 
         }
 
+    }
+
+    .hidden {
+        display: none !important;
     }
 
 }
