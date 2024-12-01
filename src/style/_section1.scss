@@ -1,75 +1,65 @@
 @use "globals" as *;
 
-main {
+main{
     background-color: rgb(252, 252, 236);
     font-family: $font-family-orbitron;
     width: 100%;
-    direction: rtl;
 
-    .title {
+    .title{
         font-size: $size-h2;
         text-align: center;
         padding-top: $padd-top4;
     }
 
-    .wrapper {
+    .wrapper{
         @include wrapper;
-
-        .one {
+    
+        .one{
             grid-column: 2 / 7;
             grid-row: 1;
-
-            h2 {
+    
+            h2{
                 font-size: $size-h2;
                 margin-bottom: $margin-15rem;
                 text-align: center;
             }
-            p {
+            p{
                 font-family: Arial, Helvetica, sans-serif;
                 font-size: $size-text-a;
-                margin-bottom: $margin-15rem;
+                margin-bottom: $margin-15rem
             }
         }
-
-        .two {
+    
+        .two{
             grid-column: 8 / 12;
 
-            h2 {
+            h2{
                 font-size: $size-h2;
                 margin-bottom: 1.5rem;
                 text-align: center;
             }
-            p {
+            p{
                 font-family: Arial, Helvetica, sans-serif;
                 font-size: $size-text-a;
                 margin-bottom: $margin-1rem;
             }
 
-            div {
+            div{
                 display: flex;
                 justify-content: space-around;
-
-                i {
+                i{
                     margin-top: $margin-1rem;
                     font-size: $icons !important;
                     color: $color-primary-default;
                 }
             }
         }
+
     }
 
-    .footer {
+    .footer{
         text-align: center;
         color: $color-primary-default;
         font-size: $size-h3;
-    }
-
-    // Solo en dispositivos con un ancho <= 768px (móviles)
-    @media (max-width: 768px) {
-        transform: rotate(90deg); /* Gira el contenido 90 grados */
-        transform-origin: top left; /* Establece la esquina superior izquierda como origen de la rotación */
-        width: 100vh; /* Ocupa toda la altura de la pantalla */
-        height: 100vw; /* Ocupa toda la anchura de la pantalla */
-        overflow: hidden; /* Evita que aparezca la barra de desplazamiento */
     }
 }
