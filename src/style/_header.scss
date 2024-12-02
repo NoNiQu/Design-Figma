@@ -1,7 +1,7 @@
 @use "globals" as *;
 
 header{
-    @include hero('fondoPX.png');
+    @include hero('../assets/fondoPX.png');
     display: flex;
     flex-direction: column;
 
