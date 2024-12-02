@@ -91,11 +91,11 @@ header{
 
     #play{
         display: flex;
-        justify-content: center;
-        align-items: end;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
         width: 100%;
         height: 100%;
-        margin-bottom: $margin-b10;
 
         a{
             text-decoration: none;
